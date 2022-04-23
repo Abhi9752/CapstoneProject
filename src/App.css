@@ -1,0 +1,276 @@
+.main{
+  /* background-color: aqua; */
+  width: 800px;
+  height: 100vh;
+  position: relative;
+  margin-left: 25%;
+}
+
+.left-container{
+  background-color: #efe4d9;
+  width: 550px;
+  height: 100vh;
+  display:inline;
+  /* float:left; */
+  position: absolute;
+  left:0px;
+}
+
+.right-container{
+  /* backgroun-color: blueviolet; */
+  width: 250px;
+  height:25vh;
+  display: inline;
+  /* float:right; */
+  position: absolute;
+  right:0px;
+}
+
+/* .leftmain{
+  position: absolute;
+  height: 500px;
+  width: 550px;
+  top: 50px;
+  background-color: brown;
+} */
+
+.cell-diagram{
+  position: absolute;
+  top:150px;
+  height: 300px;
+  width: 550px;
+  background-color: #efe4d9;
+  
+}
+
+.cell-button{
+  position: absolute;
+  padding: 6px 16px;
+  border:1px solid black;
+  border-radius: 15px;
+}
+
+#Cell{
+  
+  background: #352103;
+  color: white;
+  bottom:230px;
+  left: 50px;
+}
+
+#Nucleus{
+  
+  background: #352103;
+  color: white;
+  top: 250px;
+  left: 50px;
+}
+
+#Chromosome{
+  
+  background: #352103;
+  color: white;
+  bottom: 430px;
+  right: 250px;
+}
+
+#Gene{
+  top: 160px;
+  background: #352103;
+  color: white;
+  right: 50px;
+}
+
+.buttons-in-right{
+  position: absolute;
+  right: 0;
+}
+
+.fix-para{
+  position: absolute;
+  top:50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  color: #052978;
+}
+
+#reset{
+  width: 120px;
+  height: 50px;
+}
+
+.main-information{
+  position: absolute;
+  width: 230px;
+  right: 0px;
+  top: 150px;
+  color: #352103;
+  border: 1px solid #ba5b08;
+  border-radius: 8px;
+  background-color: #fbf1e9;
+  flex-direction: column;
+}
+ 
+
+
+.alert-box{
+  
+  position:absolute;
+  width: 800px;
+  height: 150px;
+  z-index: 1;
+  border-bottom: 2px solid #ba5b08;
+  background-color: #fbf1e9;
+}
+
+#close-button{
+  
+  background: transparent;
+  
+
+  border: 2px solid #352103;
+  border-radius: 30px;
+  padding: 6px 16px;
+  float: right;
+  margin: 8px 16px;
+}
+
+#para-container{
+  text-align: left;
+  color: #352103;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+
+#btn-start{
+  margin-left: 50px;
+  background: #352103;
+  color: white;
+  padding: 6px 16px;
+  border:1px solid;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+}
+
+#startText{
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+.reset-button{
+  cursor: pointer;
+  border-radius: 8px;
+  color: var(--white);
+  padding: 6px 16px;
+  margin: 5px;
+  
+}
+
+#btn-reset{
+  padding: 6px 16px;
+  border:1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#resetText{
+  padding-left: 8px;
+  font-size: 20px;
+}
+
+.reset-box{
+  position:absolute;
+  width: 800px;
+  height: 130px;
+  z-index: 1;
+  border-bottom: 3px solid #ba5b08;
+  background-color: #fbf1e9;
+
+}
+
+.reset-yes-no{
+    background: #352103;
+    color: white;
+    padding: 6px 16px;
+    border:2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#reset-yes{
+  margin-left: 5px;
+}
+
+#reset-no{
+  margin-left: 40px;
+  background: transparent;
+  color: #352103;
+}
+
+#alert-message{
+  display: flex;
+
+}
+
+#alert-para{
+  margin-left: 5px;
+  font-size: large;
+  padding: 3px;
+}
+
+#alert-icon{
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+#reset-message{
+  display: flex;
+
+}
+
+#reset-para{
+  margin-left: 5px;
+  font-size: large;
+  padding: 3px;
+}
+
+#reset-icon{
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+
+.info-box{
+  position:absolute;
+  width: 800px;
+  height: 150px;
+  z-index: 1;
+  border-bottom: 2px solid #ba5b08;
+  background-color: #fbf1e9;
+}
+
+#info-message{
+  display: flex;
+
+}
+
+#info-para{
+  margin-left: 5px;
+  font-size: large;
+  padding: 3px;
+}
+
+#info-icon{
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
